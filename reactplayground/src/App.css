@@ -1,0 +1,15 @@
+.content 
+{
+  max-width: 1000px;
+  margin: auto;
+}
+
+.battleship
+{
+  background-color: red;
+}
+
+.cruiser
+{
+  background-color: yellow;
+}
