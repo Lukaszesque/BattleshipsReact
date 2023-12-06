@@ -1,9 +1,9 @@
 import {Ships} from './ShipGenerators'
 
 export function ValidateVerticalCruisers(xStartCoordinate, yStartCoordinate, rows) {
+  console.log("Vertical cruiser method ran." + xStartCoordinate, yStartCoordinate);
     let error = false;
-    console.log(rows);
-  
+
     for (var i = 0; i < 3; i++) 
     {
       if (xStartCoordinate > 0) 
@@ -42,7 +42,8 @@ export function ValidateVerticalCruisers(xStartCoordinate, yStartCoordinate, row
   
 export function ValidateHorizontalCruisers(xStartCoordinate, yStartCoordinate, rows) {
     let error = false;
-    //let newArray = rows[yStartCoordinate].slice();
+    console.log("Horizontal cruiser method ran." + xStartCoordinate, yStartCoordinate);
+
     for (var i = 0; i <3; i++) 
     {
       let validatedSector = rows[xStartCoordinate + i];
